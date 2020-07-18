@@ -1,11 +1,10 @@
 import React from 'react';
-import GamePage from "./Pages/GamePage/GamePage";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Start</h1>   
+      <h1>Hello</h1>
     </div>
   );
 }
