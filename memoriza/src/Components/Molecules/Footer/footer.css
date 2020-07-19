@@ -1,8 +1,12 @@
+.Footer--container{
+    background-color: #0229FF;
+    padding: 10px;
+}
+
+
 .footer{
-    background-color: #3b09f1;
     display: flex;
-    align-items: center;
-    padding: 20px;
-    color: #ffffff;
+    justify-content: center;
     font-weight: bold;
+    color: white;
 }

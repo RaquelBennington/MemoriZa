@@ -6,7 +6,7 @@ import "./generalTemplates.css";
 const GeneralTemplates = () =>{
     return(
         <div>
-            <Navbar />Moleculas
+            <Navbar />
             <Header />
 
         </div>

@@ -2,30 +2,21 @@ body {
     margin: 0;
 }
 
-ul, li{
-    display: flex;
-    justify-content: space-around;
-    background-color: red;
-    list-style: none;
-}
-
-.NavBar--container {
-    background-color: blueviolet;
+ul{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    list-style: none;
+    color: white;
 }
 
-.logotipo {
-    background-color: #09f128;
-    align-items: center;
-    max-width: 130px;
-    padding: 10px;   
-}
-
-.Navbar{
-    background-color: #3b09f1;
+/*Essa classe engloba o logo e ul*/
+.NavBar--container{
+    background-color: #0229FF;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
-    color: #ffffff;
-    font-weight: bold;
+}
+
+.logotipo{
+    max-width: 100%;
 }
