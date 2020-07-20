@@ -7,6 +7,8 @@ import SectionOperators from "../../Components/Molecules/SectionOperators/Sectio
 import SectionCaroussel from "../../Components/Molecules/SectionCaroussel/SectionCaroussel";
 import SectionGame from "../../Components/Molecules/SectionGame/SectionGame";
 
+import  SectionCards from "../../Components/Molecules/SectionCards/SectionCards";
+
 const Home = () =>{
     return(
         <>
@@ -17,6 +19,7 @@ const Home = () =>{
         <SectionCaroussel />
         <SectionGame />
 
+        < SectionCards />
         <Footer />
         </>
 

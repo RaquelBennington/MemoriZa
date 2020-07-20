@@ -3,10 +3,14 @@
     padding: 10px;
 }
 
-
 .footer{
     display: flex;
     justify-content: center;
+    font-size: 10px;
     font-weight: bold;
     color: white;
+}
+
+@media screen and (min-width: 800px) {
+
 }

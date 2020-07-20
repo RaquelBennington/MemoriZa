@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../Assets/teste.png";
+import logo from "../../../Assets/logotipo_memoriza.png";
 import "./navBar.css";
 
 const NavBar = () =>{
@@ -7,10 +7,10 @@ const NavBar = () =>{
         <div className="Navegation">
             <nav>
                 <div className="NavBar--container">
-                    <div className="logotipo">
-                        <img src={logo} alt="Logotipo" />
+                    <div>
+                        <img className="logotipo" src={logo} alt="Logotipo" />
                     </div>
-                    <div className="um">
+                    <div className="ERRADA">
                         <ul className="Navbar">
                         <li>Home</li>
                         <li>Operadores</li>

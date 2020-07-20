@@ -7,6 +7,7 @@ ul{
     justify-content: space-between;
     list-style: none;
     color: white;
+        padding: 10px;
 }
 
 /*Essa classe engloba o logo e ul*/
@@ -18,5 +19,24 @@ ul{
 }
 
 .logotipo{
-    max-width: 100%;
+    max-width: 15vh;
+    padding-top: 10px;
+}
+
+@media (max-width: 425px){
+    ul{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logotipo{
+        max-width: 22vh;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .logotipo{
+        max-width: 28vh;
+    }
 }

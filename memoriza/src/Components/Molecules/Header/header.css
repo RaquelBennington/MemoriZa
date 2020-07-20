@@ -1,3 +1,26 @@
 .header{
-    max-width: 100%;
+    width: 440px;
+}
+
+.Header--container{
+    display: flex;
+    justify-content: right;
+}
+
+@media screen and (min-width: 421px) {
+    .header{
+        width: 790px;
+    }    
+}
+
+@media screen and (min-width: 800px) {
+    .header{
+        width: 1000px;
+    }    
+}
+
+@media screen and (min-width:1280px) {
+    .header{
+        width: 1200px;
+    }
 }
