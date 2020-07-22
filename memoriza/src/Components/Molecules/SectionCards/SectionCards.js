@@ -1,7 +1,6 @@
 import React from "react";
-import CardFront from "../../../Assets/cardFront.png";
+import CardFront from "../../../Assets/letter_Front.png";
 import "./sectionCards.css";
-
 
 const SectionCards = () =>{
     return(

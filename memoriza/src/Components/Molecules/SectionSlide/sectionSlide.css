@@ -1,0 +1,53 @@
+.slider{
+    border: none;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow:hidden;
+}
+
+.slide{
+    border: none;
+    min-width: 80%;
+    height: 70%;
+    transition: 0.5s;
+    overflow:hidden;
+    background-color: black;
+}
+
+#goLeft{
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0%;
+    height: 0%;
+    align-items: center;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    background-color:none;
+    color: #0229FF;
+    margin-left: 30px;
+}
+
+#goRight{
+    right: 0;
+    position: absolute;
+    top: 50%;
+    background-color:none;
+    color: #0229FF;
+    transform: translateY(-50%);
+    width: 0%;
+    height: 0%;
+    align-items: center;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    margin-right: 30px;
+}

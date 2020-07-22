@@ -8,7 +8,7 @@ const GeneralTemplates = () =>{
         <div>
             <Navbar />
             <Header />
-
+                
         </div>
     )
 };
