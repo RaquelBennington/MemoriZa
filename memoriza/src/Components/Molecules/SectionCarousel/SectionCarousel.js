@@ -1,18 +1,20 @@
 import React, { useState } from "react";
-import "./sectionSlide.css";
-import ImgComp from "../../Molecules/SectionSlide/ImgComp";
-import i1 from "../../../Assets/02_CBMAQS.png";
-import i2 from "../../../Assets/01_CBENI.png";
-import i3 from "../../../Assets/02_CBMQIS.png";
-import i4 from "../../../Assets/02_CBNIS.png";
+import AssetsComp from "../SectionCarousel/AssetsComp";
+import a0 from "../../../Assets/5.png";
+import a1 from "../../../Assets/1.png";
+import a2 from "../../../Assets/2.png";
+import a3 from "../../../Assets/3.png";
+import a4 from "../../../Assets/4.png";
+import "./sectionCarousel.css";
 
-function Slider() {
+function SectionCarousel() {
     const [x, setX] = useState(0);
     let sliderArr = [
-        <ImgComp src={i1} />,
-        <ImgComp src={i2} />,
-        <ImgComp src={i3} />,
-        <ImgComp src={i4} />,
+        <AssetsComp src={a0} />,
+        <AssetsComp src={a1} />,
+        <AssetsComp src={a2} />,
+        <AssetsComp src={a3} />,
+        <AssetsComp src={a4} />
     ];
     const goLeft = () => {
         x === 0 ? setX(-100 * (sliderArr.length - 1)) : setX(x + 100);
@@ -40,4 +42,4 @@ function Slider() {
     );
 }
 
-export default Slider;
+export default SectionCarousel;

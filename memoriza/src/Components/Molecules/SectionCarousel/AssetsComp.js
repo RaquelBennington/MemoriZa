@@ -1,10 +1,10 @@
 import React from "react";
-import "./imgComp.css";
+import "./assetsComp.css";
 
-function ImgComp ({src}){
+function AssetsComp ({src}){
     return(
         <img className="imgStyles" src={src} alt="slide-img" />
     )
 }
 
-export default ImgComp;
+export default AssetsComp;

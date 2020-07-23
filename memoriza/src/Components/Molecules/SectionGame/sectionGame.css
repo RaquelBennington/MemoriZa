@@ -1,4 +1,56 @@
-.Game{
-    background-color: rgb(231, 225, 225);
-    padding: 70px;
+
+
+p{
+    color: grey;
+    text-align: justify;
+}
+
+.First_Title{
+    text-align: left;
+    color: #D8498D;
+    font: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.First_Section{
+    width: 90%;
+}
+
+.SectionGame{
+    display: flex;
+    padding: 30px;
+}
+
+.SectionGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.btn_startGame{
+    width: 30%;
+    height: 40px;
+    background-color: #1AB9A8;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.GameAssets{
+    text-align: center;
+}
+
+.AssetsGame{
+    width: 70%;
 }

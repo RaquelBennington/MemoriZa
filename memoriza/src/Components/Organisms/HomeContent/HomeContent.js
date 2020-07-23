@@ -1,7 +1,5 @@
 import React from "react";
-import SectionOperators from "../../Molecules/SectionOperators/SectionOperators";
-import Slider from "../../Molecules/SectionSlide/SectionSlide";
-import SectionCaroussel from "../../Molecules/SectionCaroussel/SectionCaroussel";
+import SectionCarousel from "../../Molecules/SectionCarousel/SectionCarousel";
 import SectionGame from "../../Molecules/SectionGame/SectionGame";
 import "./homeContent.css";
 
@@ -9,10 +7,8 @@ import "./homeContent.css";
 const HomeContent = () =>{
     return(
         <>
-        <SectionOperators />
-        <Slider />
-        <SectionCaroussel />
         <SectionGame />
+        <SectionCarousel />
         </>
     )
 };
