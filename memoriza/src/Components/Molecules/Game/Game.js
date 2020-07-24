@@ -16,21 +16,21 @@ const letter = [
 const Game = () => {
     return (
         <section className="container">
-
-            <div className="flip-card-container">
             {letter.map((item) => {
                 return (
+                    <div className="flip-card-container">
                         <div className="flip-card">
                             <div className="flip-card-front">
                                 <img src={`${process.env.PUBLIC_URL}/img/${item.front}`} alt="Card Front" />
                             </div>
                             <div className="flip-card-back">
-                            <img src={`${process.env.PUBLIC_URL}/img/${item.back}`} alt="Card Back" />
+                                <img src={`${process.env.PUBLIC_URL}/img/${item.back}`} alt="Card Back" />
                             </div>
                         </div>
+                    </div>
                 )
             })}
-            </div>
+
 
         </section>
     )

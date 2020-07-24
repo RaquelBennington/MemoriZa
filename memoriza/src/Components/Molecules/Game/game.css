@@ -1,19 +1,23 @@
 
   .container{
     display: flex;
-    background-color: black;
+    flex-wrap: wrap;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
-  /* perspective: 1000px; */
+
+
   .flip-card-container {
-    width: 500px;
-    height: 500px;
-
+    width: 250px;
+    height: 250px;
+    margin: 20px 10px;
   }
-
+  
   .flip-card {
     position: relative;
-    width: 25%;
-    height: 25%;
+    width: 250px;
+    height: 250px;
     transition: transform 1s;
     transform-style: preserve-3d;
   }
