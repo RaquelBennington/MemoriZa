@@ -43,12 +43,12 @@ ul{
 
 @media screen and (min-width: 768px) {
     .logotipo{
-        max-width: 22vh;
+        max-width: 23vh;
     }
 }
 
 @media screen and (min-width:1280px) {
     .logotipo{
-        max-width: 28vh;
+        max-width: 50vh;
     }
 }

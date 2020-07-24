@@ -3,21 +3,26 @@ h2{
     text-align: center;
     color: #1AB9A8;
     font: bold;
-    font-size: 22px;
-    padding-bottom: 20px;
+    font-size: 22px; 
+    padding-bottom: 5px;
+    background-color: white;
+    padding: 30px;
 }
 
-p{
+.P1{
     color: grey;
     text-align: justify;
-}
-
-.P2{
-    text-transform: uppercase;
+    background-color: white;
+    padding: 50px;
 }
 
 .Operators{
-    display: flex;
-    background-color: #f7f2f2;
+    background: linear-gradient(rgba(76, 0, 255, 0.452),
+                                rgba(55, 0, 255, 0.541)),
+                                url(../../../Assets/backgroud.png);
     padding: 60px;
+}
+
+.Operators{
+
 }
