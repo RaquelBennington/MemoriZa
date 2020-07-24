@@ -1,11 +1,12 @@
 import React from "react";
-import  SectionCards from "../../Molecules/SectionCards/SectionCards";
+import Game from "../../Molecules/Game/Game";
 import "./gameContent.css";
+
 
 const GameContent = () =>{
     return(
         <>
-         <SectionCards />
+        <Game />
         </>
     )
 };

@@ -5,7 +5,7 @@ import "./sectionCards.css";
 const SectionCards = () =>{
     return(
         <div>
-            <section>
+            <section className="container">
                 <div className="Cards--container-01">
                     <img className="size" src={CardFront} alt="Carta frente" />
                     <img className="size" src={CardFront} alt="Carta frente" />

@@ -13,11 +13,10 @@
 
 .slide{
     border: none;
-    min-width: 70%;
-    height: 60%;
+    min-width: 140%;
+    height: 120%;
     transition: 0.5s;
     overflow:hidden;
-    background-color: black;
 }
 
 #goLeft{

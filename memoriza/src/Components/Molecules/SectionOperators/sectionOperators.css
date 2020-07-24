@@ -1,0 +1,23 @@
+
+h2{
+    text-align: center;
+    color: #1AB9A8;
+    font: bold;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+p{
+    color: grey;
+    text-align: justify;
+}
+
+.P2{
+    text-transform: uppercase;
+}
+
+.Operators{
+    display: flex;
+    background-color: #f7f2f2;
+    padding: 60px;
+}

@@ -9,8 +9,6 @@ const Home = () =>{
         <>
         <GeneralTemplates />
         <HomeContent />
-        
-
         <Footer />
         </>
 

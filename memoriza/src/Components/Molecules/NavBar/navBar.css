@@ -7,9 +7,13 @@ ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    font-size: 15px;
+    font-weight: bold;
     color: white;
     padding-right: 20px;
 }
+
+
 
 /*Essa classe engloba o logo e ul*/
 .NavBar--container{
@@ -22,6 +26,7 @@ ul{
 }
 
 .logotipo{
+    width: 50%;
     margin-left: 10px;
 }
 
@@ -29,6 +34,10 @@ ul{
 @media (max-width: 425px){
     ul{
         display: none;
+    }
+
+    .logotipo{
+        width: 45%;
     }
 }
 
